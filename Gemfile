@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-ruby '2.2.5p319'
+ruby '2.2.5'
 
 gem 'activeadmin'
 gem 'devise'
