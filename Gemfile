@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+
+ruby '2.2.5p319'
+
 gem 'activeadmin'
 gem 'devise'
 gem 'active_skin'
